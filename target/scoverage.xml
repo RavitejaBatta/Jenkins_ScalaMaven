@@ -1,0 +1,67 @@
+<scoverage 
+statement-count="11" statements-invoked="6" statement-rate="54.55" branch-rate="100.00" version="1.0" timestamp="1659278725506">
+    <packages>
+        <package name="&lt;empty&gt;" statement-count="11" statements-invoked="6" statement-rate="54.55">
+            <classes>
+                <class 
+                name="Divide_Util" filename="Divide_Util.scala" statement-count="5" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="&lt;empty&gt;/Divide_Util/main" statement-count="5" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="Divide_Util" class-type="Object" full-class-name="Divide_Util" source="/Users/ravbatta/Documents/git/Jenkins_ScalaMaven/src/main/scala/Divide_Util.scala" method="main" start="109" end="120" line="7" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Divide_Util" class-type="Object" full-class-name="Divide_Util" source="/Users/ravbatta/Documents/git/Jenkins_ScalaMaven/src/main/scala/Divide_Util.scala" method="main" start="101" end="144" line="7" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Divide_Util" class-type="Object" full-class-name="Divide_Util" source="/Users/ravbatta/Documents/git/Jenkins_ScalaMaven/src/main/scala/Divide_Util.scala" method="main" start="109" end="143" line="7" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Divide_Util" class-type="Object" full-class-name="Divide_Util" source="/Users/ravbatta/Documents/git/Jenkins_ScalaMaven/src/main/scala/Divide_Util.scala" method="main" start="69" end="96" line="6" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Divide_Util" class-type="Object" full-class-name="Divide_Util" source="/Users/ravbatta/Documents/git/Jenkins_ScalaMaven/src/main/scala/Divide_Util.scala" method="main" start="123" end="143" line="7" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="MyUtil" filename="MyUtil.scala" statement-count="6" statements-invoked="6" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="&lt;empty&gt;/MyUtil/canVote" statement-count="5" statements-invoked="5" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="MyUtil" class-type="Object" full-class-name="MyUtil" source="/Users/ravbatta/Documents/git/Jenkins_ScalaMaven/src/main/scala/MyUtil.scala" method="canVote" start="112" end="116" line="9" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="MyUtil" class-type="Object" full-class-name="MyUtil" source="/Users/ravbatta/Documents/git/Jenkins_ScalaMaven/src/main/scala/MyUtil.scala" method="canVote" start="140" end="145" line="12" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="MyUtil" class-type="Object" full-class-name="MyUtil" source="/Users/ravbatta/Documents/git/Jenkins_ScalaMaven/src/main/scala/MyUtil.scala" method="canVote" start="93" end="102" line="8" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="MyUtil" class-type="Object" full-class-name="MyUtil" source="/Users/ravbatta/Documents/git/Jenkins_ScalaMaven/src/main/scala/MyUtil.scala" method="canVote" start="140" end="145" line="12" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="MyUtil" class-type="Object" full-class-name="MyUtil" source="/Users/ravbatta/Documents/git/Jenkins_ScalaMaven/src/main/scala/MyUtil.scala" method="canVote" start="112" end="116" line="9" branch="true" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/MyUtil/divide" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="MyUtil" class-type="Object" full-class-name="MyUtil" source="/Users/ravbatta/Documents/git/Jenkins_ScalaMaven/src/main/scala/MyUtil.scala" method="divide" start="51" end="54" line="4" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+    </packages>
+</scoverage>

@@ -1,0 +1,207 @@
+# Coverage data, format version: 2.0
+# Statement data:
+# - id
+# - source path
+# - package name
+# - class name
+# - class type (Class, Object or Trait)
+# - full class name
+# - method name
+# - start offset
+# - end offset
+# - line number
+# - symbol name
+# - tree name
+# - is branch
+# - invocations count
+# - is ignored
+# - description (can be multi-line)
+# '' sign
+# ------------------------------------------
+1
+/Users/ravbatta/Documents/git/Jenkins_ScalaMaven/src/main/scala/Divide_Util.scala
+<empty>
+Divide_Util
+Object
+Divide_Util
+main
+69
+96
+6
+scala.Predef.println
+Apply
+false
+0
+false
+scala.this.Predef.println("Division Project")
+
+2
+/Users/ravbatta/Documents/git/Jenkins_ScalaMaven/src/main/scala/Divide_Util.scala
+<empty>
+Divide_Util
+Object
+Divide_Util
+main
+109
+120
+7
+<nosymbol>
+Literal
+false
+0
+false
+"Dividing "
+
+3
+/Users/ravbatta/Documents/git/Jenkins_ScalaMaven/src/main/scala/Divide_Util.scala
+<empty>
+Divide_Util
+Object
+Divide_Util
+main
+123
+143
+7
+MyUtil.divide
+Apply
+false
+0
+false
+MyUtil.divide(30, 10)
+
+4
+/Users/ravbatta/Documents/git/Jenkins_ScalaMaven/src/main/scala/Divide_Util.scala
+<empty>
+Divide_Util
+Object
+Divide_Util
+main
+109
+143
+7
+java.lang.String.+
+Apply
+false
+0
+false
+"Dividing ".+(MyUtil.divide(30, 10))
+
+5
+/Users/ravbatta/Documents/git/Jenkins_ScalaMaven/src/main/scala/Divide_Util.scala
+<empty>
+Divide_Util
+Object
+Divide_Util
+main
+101
+144
+7
+scala.Predef.println
+Apply
+false
+0
+false
+scala.this.Predef.println("Dividing ".+(MyUtil.divide(30, 10)))
+
+6
+/Users/ravbatta/Documents/git/Jenkins_ScalaMaven/src/main/scala/MyUtil.scala
+<empty>
+MyUtil
+Object
+MyUtil
+divide
+51
+54
+4
+scala.Int./
+Apply
+false
+0
+false
+x./(y)
+
+7
+/Users/ravbatta/Documents/git/Jenkins_ScalaMaven/src/main/scala/MyUtil.scala
+<empty>
+MyUtil
+Object
+MyUtil
+canVote
+93
+102
+8
+scala.Int.>=
+Apply
+false
+0
+false
+age.>=(18)
+
+8
+/Users/ravbatta/Documents/git/Jenkins_ScalaMaven/src/main/scala/MyUtil.scala
+<empty>
+MyUtil
+Object
+MyUtil
+canVote
+112
+116
+9
+<nosymbol>
+Literal
+false
+0
+false
+true
+
+9
+/Users/ravbatta/Documents/git/Jenkins_ScalaMaven/src/main/scala/MyUtil.scala
+<empty>
+MyUtil
+Object
+MyUtil
+canVote
+112
+116
+9
+<nosymbol>
+Block
+true
+0
+false
+true
+
+10
+/Users/ravbatta/Documents/git/Jenkins_ScalaMaven/src/main/scala/MyUtil.scala
+<empty>
+MyUtil
+Object
+MyUtil
+canVote
+140
+145
+12
+<nosymbol>
+Literal
+false
+0
+false
+false
+
+11
+/Users/ravbatta/Documents/git/Jenkins_ScalaMaven/src/main/scala/MyUtil.scala
+<empty>
+MyUtil
+Object
+MyUtil
+canVote
+140
+145
+12
+<nosymbol>
+Block
+true
+0
+false
+false
+
