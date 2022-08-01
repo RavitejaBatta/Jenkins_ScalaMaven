@@ -42,7 +42,7 @@ pipeline {
 		stage('Publish Static Code Analysis') {
                         	steps{
                         	step([$class: 'ScoveragePublisher',
-                                     reportDir: 'target/scala-2.11/scoverage-report', reportFile: 'scoverage.xml'])
+                                     reportDir: 'target', reportFile: 'scoverage.xml'])
                         			}
                         		}
 
