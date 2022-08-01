@@ -43,7 +43,7 @@ pipeline {
                         	steps{
                         	step([$class: 'ScoveragePublisher',
                                      reportDir: 'target', reportFile: 'scoverage.xml'])
-                        			}
+
                         	step([$class: 'CheckStylePublisher', pattern: 'target/scalastyle-output.xml, target/scoverage-classes/scalastyle_config.xml']
                         	publishHTML([
                                         allowMissing: false,
@@ -54,7 +54,7 @@ pipeline {
                                         reportName: 'Scoverage HTML Report'
                                       ])
                         		}
-
+        }
 		/*stage('Build Docker Image') {
 			steps{
 				//docker build -t myjenkins/jenkinsmicroService:$env.BUILD_TAG
