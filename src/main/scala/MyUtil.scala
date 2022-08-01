@@ -8,9 +8,8 @@ object MyUtil {
     if (age >= 18) {
       true
     }
-    else {
+    else
       false
-    }
   }
 
 }

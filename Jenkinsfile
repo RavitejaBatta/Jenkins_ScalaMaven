@@ -44,6 +44,9 @@ pipeline {
                         	step([$class: 'ScoveragePublisher',
                                      reportDir: 'target', reportFile: 'scoverage.xml'])
                         			}
+                        	recordIssues(tools: [
+                                            	    checkStyle(pattern: 'target/scalastyle-output.xml',reportEncoding: 'UTF-8')
+                                            	    ])
                         		}
 
 		/*stage('Build Docker Image') {
