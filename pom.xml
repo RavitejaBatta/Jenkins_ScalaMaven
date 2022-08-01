@@ -46,7 +46,7 @@
                 <artifactId>scalastyle-maven-plugin</artifactId>
                 <version>0.8.0</version>
                 <configuration>
-                    <failOnViolation>true</failOnViolation>
+                    <failOnViolation>false</failOnViolation>
                     <failOnWarning>false</failOnWarning>
                     <verbose>false</verbose>
                     <includeTestSourceDirectory>true</includeTestSourceDirectory>
@@ -102,7 +102,7 @@
                 <configuration>
                     <highlighting>true</highlighting>
                     <minimumCoverage>50</minimumCoverage>
-                    <failOnMinimumCoverage>true</failOnMinimumCoverage>
+                    <failOnMinimumCoverage>false</failOnMinimumCoverage>
                     <scalaVersion>2.11.8</scalaVersion>
                     <aggregate>true</aggregate>
                     <additionalForkedProjectProperties>skipTests=false;skip.scalafmt=false</additionalForkedProjectProperties>
