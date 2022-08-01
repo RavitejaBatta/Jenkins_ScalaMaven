@@ -50,8 +50,7 @@ pipeline {
                                         alwaysLinkToLastBuild: false,
                                         keepAll: true,
                                         reportDir: 'target/site/scoverage',
-                                        reportFiles: '*.html',
-                                        reportName: 'Scoverage HTML Report'
+                                        reportFiles: '*.html'
                                       ])
                         		}
         }
