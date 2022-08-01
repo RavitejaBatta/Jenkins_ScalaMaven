@@ -44,7 +44,7 @@ pipeline {
                         	step([$class: 'ScoveragePublisher',
                                      reportDir: 'target', reportFile: 'scoverage.xml'])
 
-                        	step([$class: 'CheckStylePublisher', pattern: 'target/scalastyle-output.xml, target/scoverage-classes/scalastyle_config.xml']
+                        	step([$class: 'CheckStylePublisher', pattern: 'target/scalastyle-output.xml, target/scoverage-classes/scalastyle_config.xml'])
                         	publishHTML([
                                         allowMissing: false,
                                         alwaysLinkToLastBuild: false,
