@@ -42,15 +42,9 @@ pipeline {
 		stage('Publish Static Code Analysis') {
                         	steps{
                         	step([$class: 'ScoveragePublisher',
-                                     reportDir: 'target', reportFile: 'scoverage.xml',reportFiles: '*.html',pattern: 'target/scalastyle-output.xml'])
-                            publishHTML([
-                                                                    allowMissing: false,
-                                                                    alwaysLinkToLastBuild: false,
-                                                                    keepAll: true,
-                                                                    reportDir: 'target',
-                                                                    reportFiles: 'scalastyle-output.xml',
-                                                                    reportName: 'CheckStylePublisher Report'
-                                                                  ])
+                                     reportDir: 'target', reportFile: 'scoverage.xml'])
+                           step([$class: 'ScalaStyleCheck',
+                                                                reportDir: 'target', reportFile: 'scalastyle-output.xml'])
                         	publishHTML([
                                         allowMissing: false,
                                         alwaysLinkToLastBuild: false,
