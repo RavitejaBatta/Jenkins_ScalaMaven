@@ -39,6 +39,13 @@ pipeline {
 			}
 		}
 
+		stage('Publish Static Code Analysis') {
+                        	steps{
+                        	step([$class: 'ScoveragePublisher',
+                                     reportDir: 'target/scala-2.11/scoverage-report', reportFile: 'scoverage.xml'])
+                        			}
+                        		}
+
 		/*stage('Build Docker Image') {
 			steps{
 				//docker build -t myjenkins/jenkinsmicroService:$env.BUILD_TAG
